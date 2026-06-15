@@ -47,7 +47,7 @@ function boxWrap(text) {
         }
     }
     const body = processed.join('\n');
-    return `╭━━━ᕙ    FEE-XMD    ᕗ━━━\n├━━━≫ FREDI-AI ≪━━━\n├\n${body}\n╰━━━━━━━━━━━━━━━━ᕗ\n> ©𝖕𝖔𝖜𝖊𝖗𝖊𝖉 𝖇𝖞 𝖋𝖗𝖊𝖉𝖎_𝖊𝖟𝖗𝖆`;
+    return `${body}\n> ©fredi_ai`;
 }
 
 function extractCmds(text) {
